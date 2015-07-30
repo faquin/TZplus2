@@ -1,592 +1,592 @@
 {
-  "uuid": "7db50aa2-2b9d-4f61-8644-2ed7a55fafab",
-  "shortName": "TZplus2",
-  "longName": "TZplus2",
-  "companyName": "Pebble Technology & KD5RXT",
-  "versionCode": 2.2,
-  "versionLabel": "2.2.0",
-  "watchapp":
-  {
-    "watchface": false
-  },
-
-  "appKeys": {},
-
-  "resources":
-  {
-    "media":
-    [
-      {
-        "menuIcon": true,
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon_TZplus2.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SPLASH",
-        "file": "images/splash.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_WHITE_BACK",
-        "file": "images/white.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_0",
-        "file": "images/time_0.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_1",
-        "file": "images/time_1.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_2",
-        "file": "images/time_2.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_3",
-        "file": "images/time_3.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_4",
-        "file": "images/time_4.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_5",
-        "file": "images/time_5.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_6",
-        "file": "images/time_6.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_7",
-        "file": "images/time_7.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_8",
-        "file": "images/time_8.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_9",
-        "file": "images/time_9.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_COLON",
-        "file": "images/time_colon.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_AM",
-        "file": "images/time_AM.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_PM",
-        "file": "images/time_PM.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_PLUS",
-        "file": "images/time_plus.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_MINUS",
-        "file": "images/time_minus.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_NONE",
-        "file": "images/time_none.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TIME_BLANK",
-        "file": "images/time_blank.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TZ1",
-        "file": "images/name_tz1.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_LOCAL",
-        "file": "images/name_local.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_11",
-        "file": "images/name_UTC_minus_11.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_10",
-        "file": "images/name_UTC_minus_10.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_9",
-        "file": "images/name_UTC_minus_9.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_8",
-        "file": "images/name_UTC_minus_8.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_7",
-        "file": "images/name_UTC_minus_7.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_6",
-        "file": "images/name_UTC_minus_6.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_5",
-        "file": "images/name_UTC_minus_5.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_4_30",
-        "file": "images/name_UTC_minus_4_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_4",
-        "file": "images/name_UTC_minus_4.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_3_30",
-        "file": "images/name_UTC_minus_3_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_3",
-        "file": "images/name_UTC_minus_3.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_2",
-        "file": "images/name_UTC_minus_2.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_MINUS_1",
-        "file": "images/name_UTC_minus_1.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC",
-        "file": "images/name_UTC.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_1",
-        "file": "images/name_UTC_plus_1.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_2",
-        "file": "images/name_UTC_plus_2.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_3",
-        "file": "images/name_UTC_plus_3.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_3_30",
-        "file": "images/name_UTC_plus_3_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_4",
-        "file": "images/name_UTC_plus_4.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_4_30",
-        "file": "images/name_UTC_plus_4_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_5",
-        "file": "images/name_UTC_plus_5.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_5_30",
-        "file": "images/name_UTC_plus_5_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_5_45",
-        "file": "images/name_UTC_plus_5_45.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_6",
-        "file": "images/name_UTC_plus_6.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_6_30",
-        "file": "images/name_UTC_plus_6_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_7",
-        "file": "images/name_UTC_plus_7.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_8",
-        "file": "images/name_UTC_plus_8.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_9",
-        "file": "images/name_UTC_plus_9.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_9_30",
-        "file": "images/name_UTC_plus_9_30.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_10",
-        "file": "images/name_UTC_plus_10.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_11",
-        "file": "images/name_UTC_plus_11.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_12",
-        "file": "images/name_UTC_plus_12.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_13",
-        "file": "images/name_UTC_plus_13.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_UTC_PLUS_14",
-        "file": "images/name_UTC_plus_14.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_EDT",
-        "file": "images/name_EDT.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_EST",
-        "file": "images/name_EST.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_CDT",
-        "file": "images/name_CDT.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_CST",
-        "file": "images/name_CST.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MDT",
-        "file": "images/name_MDT.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MST",
-        "file": "images/name_MST.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_PDT",
-        "file": "images/name_PDT.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_PST",
-        "file": "images/name_PST.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_ABUDHABI",
-        "file": "images/name_abudhabi.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_ALASKA",
-        "file": "images/name_alaska.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_AMSTERDAM",
-        "file": "images/name_amsterdam.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_ATHENS",
-        "file": "images/name_athens.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_ATLANTA",
-        "file": "images/name_atlanta.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_AZORES",
-        "file": "images/name_azores.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_BAGHDAD",
-        "file": "images/name_baghdad.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_BEIJING",
-        "file": "images/name_beijing.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_BEIRUT",
-        "file": "images/name_beirut.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_BERLIN",
-        "file": "images/name_berlin.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_BRUSSELS",
-        "file": "images/name_brussels.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_CAIRO",
-        "file": "images/name_cairo.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_COPENHAGEN",
-        "file": "images/name_copenhagen.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_DALLAS",
-        "file": "images/name_dallas.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_DENVER",
-        "file": "images/name_denver.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_DETROIT",
-        "file": "images/name_detroit.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_EDINBURGH",
-        "file": "images/name_edinburgh.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_FIJI",
-        "file": "images/name_fiji.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_GREENLAND",
-        "file": "images/name_greenland.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_GUAM",
-        "file": "images/name_guam.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_HANOI",
-        "file": "images/name_hanoi.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_HAWAII",
-        "file": "images/name_hawaii.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_HELSINKI",
-        "file": "images/name_helsinki.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_HONGKONG",
-        "file": "images/name_hongkong.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_JAKARTA",
-        "file": "images/name_jakarta.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_JERUSALEM",
-        "file": "images/name_jerusalem.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_KABUL",
-        "file": "images/name_kabul.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_KATHMANDU",
-        "file": "images/name_kathmandu.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_KUWAIT",
-        "file": "images/name_kuwait.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_LONDON",
-        "file": "images/name_london.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_LOSANGELES",
-        "file": "images/name_losangeles.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MIAMI",
-        "file": "images/name_miami.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_MOSCOW",
-        "file": "images/name_moscow.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_NEWDELHI",
-        "file": "images/name_newdelhi.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_NEWYORK",
-        "file": "images/name_newyork.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_PARIS",
-        "file": "images/name_paris.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_PHOENIX",
-        "file": "images/name_phoenix.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_REYKJAVIK",
-        "file": "images/name_reykjavik.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_RIYADH",
-        "file": "images/name_riyadh.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_ROME",
-        "file": "images/name_rome.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SALVADOR",
-        "file": "images/name_salvador.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SAMOA",
-        "file": "images/name_samoa.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SANJUAN",
-        "file": "images/name_sanjuan.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SEOUL",
-        "file": "images/name_seoul.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SINGAPORE",
-        "file": "images/name_singapore.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_STLOUIS",
-        "file": "images/name_stlouis.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_STOCKHOLM",
-        "file": "images/name_stockholm.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_SYDNEY",
-        "file": "images/name_sydney.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TAIPEI",
-        "file": "images/name_taipei.png"
-      },
-      {
-        "type": "png",
-        "name": "IMAGE_TOKYO",
-        "file": "images/name_tokyo.png"
-      }
-    ]
-  }
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble Technology & KD5RXT",
+    "longName": "TZplus2",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/name_atlanta.png",
+                "name": "IMAGE_ATLANTA",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_9_30.png",
+                "name": "IMAGE_UTC_PLUS_9_30",
+                "type": "png"
+            },
+            {
+                "file": "images/time_minus.png",
+                "name": "IMAGE_TIME_MINUS",
+                "type": "png"
+            },
+            {
+                "file": "images/time_PM.png",
+                "name": "IMAGE_TIME_PM",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_4.png",
+                "name": "IMAGE_UTC_PLUS_4",
+                "type": "png"
+            },
+            {
+                "file": "images/menu_icon_TZplus2.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/name_baghdad.png",
+                "name": "IMAGE_BAGHDAD",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_5_45.png",
+                "name": "IMAGE_UTC_PLUS_5_45",
+                "type": "png"
+            },
+            {
+                "file": "images/name_local.png",
+                "name": "IMAGE_LOCAL",
+                "type": "png"
+            },
+            {
+                "file": "images/name_hawaii.png",
+                "name": "IMAGE_HAWAII",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_6.png",
+                "name": "IMAGE_UTC_PLUS_6",
+                "type": "png"
+            },
+            {
+                "file": "images/time_9.png",
+                "name": "IMAGE_TIME_9",
+                "type": "png"
+            },
+            {
+                "file": "images/name_kathmandu.png",
+                "name": "IMAGE_KATHMANDU",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_3_30.png",
+                "name": "IMAGE_UTC_PLUS_3_30",
+                "type": "png"
+            },
+            {
+                "file": "images/name_kabul.png",
+                "name": "IMAGE_KABUL",
+                "type": "png"
+            },
+            {
+                "file": "images/name_dallas.png",
+                "name": "IMAGE_DALLAS",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_1.png",
+                "name": "IMAGE_UTC_PLUS_1",
+                "type": "png"
+            },
+            {
+                "file": "images/name_azores.png",
+                "name": "IMAGE_AZORES",
+                "type": "png"
+            },
+            {
+                "file": "images/name_detroit.png",
+                "name": "IMAGE_DETROIT",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_8.png",
+                "name": "IMAGE_UTC_PLUS_8",
+                "type": "png"
+            },
+            {
+                "file": "images/name_helsinki.png",
+                "name": "IMAGE_HELSINKI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_brussels.png",
+                "name": "IMAGE_BRUSSELS",
+                "type": "png"
+            },
+            {
+                "file": "images/name_amsterdam.png",
+                "name": "IMAGE_AMSTERDAM",
+                "type": "png"
+            },
+            {
+                "file": "images/name_samoa.png",
+                "name": "IMAGE_SAMOA",
+                "type": "png"
+            },
+            {
+                "file": "images/name_abudhabi.png",
+                "name": "IMAGE_ABUDHABI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_6_30.png",
+                "name": "IMAGE_UTC_PLUS_6_30",
+                "type": "png"
+            },
+            {
+                "file": "images/time_3.png",
+                "name": "IMAGE_TIME_3",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_12.png",
+                "name": "IMAGE_UTC_PLUS_12",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_9.png",
+                "name": "IMAGE_UTC_PLUS_9",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_4_30.png",
+                "name": "IMAGE_UTC_PLUS_4_30",
+                "type": "png"
+            },
+            {
+                "file": "images/name_stlouis.png",
+                "name": "IMAGE_STLOUIS",
+                "type": "png"
+            },
+            {
+                "file": "images/name_berlin.png",
+                "name": "IMAGE_BERLIN",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_3_30.png",
+                "name": "IMAGE_UTC_MINUS_3_30",
+                "type": "png"
+            },
+            {
+                "file": "images/name_jakarta.png",
+                "name": "IMAGE_JAKARTA",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_10.png",
+                "name": "IMAGE_UTC_MINUS_10",
+                "type": "png"
+            },
+            {
+                "file": "images/time_5.png",
+                "name": "IMAGE_TIME_5",
+                "type": "png"
+            },
+            {
+                "file": "images/name_miami.png",
+                "name": "IMAGE_MIAMI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_MST.png",
+                "name": "IMAGE_MST",
+                "type": "png"
+            },
+            {
+                "file": "images/name_riyadh.png",
+                "name": "IMAGE_RIYADH",
+                "type": "png"
+            },
+            {
+                "file": "images/name_beijing.png",
+                "name": "IMAGE_BEIJING",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_5.png",
+                "name": "IMAGE_UTC_MINUS_5",
+                "type": "png"
+            },
+            {
+                "file": "images/name_EDT.png",
+                "name": "IMAGE_EDT",
+                "type": "png"
+            },
+            {
+                "file": "images/time_8.png",
+                "name": "IMAGE_TIME_8",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC.png",
+                "name": "IMAGE_UTC",
+                "type": "png"
+            },
+            {
+                "file": "images/name_singapore.png",
+                "name": "IMAGE_SINGAPORE",
+                "type": "png"
+            },
+            {
+                "file": "images/name_moscow.png",
+                "name": "IMAGE_MOSCOW",
+                "type": "png"
+            },
+            {
+                "file": "images/name_alaska.png",
+                "name": "IMAGE_ALASKA",
+                "type": "png"
+            },
+            {
+                "file": "images/name_CST.png",
+                "name": "IMAGE_CST",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_3.png",
+                "name": "IMAGE_UTC_MINUS_3",
+                "type": "png"
+            },
+            {
+                "file": "images/name_kuwait.png",
+                "name": "IMAGE_KUWAIT",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_7.png",
+                "name": "IMAGE_UTC_MINUS_7",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_4_30.png",
+                "name": "IMAGE_UTC_MINUS_4_30",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_10.png",
+                "name": "IMAGE_UTC_PLUS_10",
+                "type": "png"
+            },
+            {
+                "file": "images/splash.png",
+                "name": "IMAGE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/name_PST.png",
+                "name": "IMAGE_PST",
+                "type": "png"
+            },
+            {
+                "file": "images/name_london.png",
+                "name": "IMAGE_LONDON",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_3.png",
+                "name": "IMAGE_UTC_PLUS_3",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_4.png",
+                "name": "IMAGE_UTC_MINUS_4",
+                "type": "png"
+            },
+            {
+                "file": "images/name_PDT.png",
+                "name": "IMAGE_PDT",
+                "type": "png"
+            },
+            {
+                "file": "images/time_colon.png",
+                "name": "IMAGE_TIME_COLON",
+                "type": "png"
+            },
+            {
+                "file": "images/name_rome.png",
+                "name": "IMAGE_ROME",
+                "type": "png"
+            },
+            {
+                "file": "images/name_fiji.png",
+                "name": "IMAGE_FIJI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_2.png",
+                "name": "IMAGE_UTC_MINUS_2",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_13.png",
+                "name": "IMAGE_UTC_PLUS_13",
+                "type": "png"
+            },
+            {
+                "file": "images/name_jerusalem.png",
+                "name": "IMAGE_JERUSALEM",
+                "type": "png"
+            },
+            {
+                "file": "images/name_cairo.png",
+                "name": "IMAGE_CAIRO",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_14.png",
+                "name": "IMAGE_UTC_PLUS_14",
+                "type": "png"
+            },
+            {
+                "file": "images/name_hanoi.png",
+                "name": "IMAGE_HANOI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_copenhagen.png",
+                "name": "IMAGE_COPENHAGEN",
+                "type": "png"
+            },
+            {
+                "file": "images/name_athens.png",
+                "name": "IMAGE_ATHENS",
+                "type": "png"
+            },
+            {
+                "file": "images/time_7.png",
+                "name": "IMAGE_TIME_7",
+                "type": "png"
+            },
+            {
+                "file": "images/name_denver.png",
+                "name": "IMAGE_DENVER",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_5.png",
+                "name": "IMAGE_UTC_PLUS_5",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_9.png",
+                "name": "IMAGE_UTC_MINUS_9",
+                "type": "png"
+            },
+            {
+                "file": "images/name_MDT.png",
+                "name": "IMAGE_MDT",
+                "type": "png"
+            },
+            {
+                "file": "images/time_2.png",
+                "name": "IMAGE_TIME_2",
+                "type": "png"
+            },
+            {
+                "file": "images/name_paris.png",
+                "name": "IMAGE_PARIS",
+                "type": "png"
+            },
+            {
+                "file": "images/time_AM.png",
+                "name": "IMAGE_TIME_AM",
+                "type": "png"
+            },
+            {
+                "file": "images/name_newyork.png",
+                "name": "IMAGE_NEWYORK",
+                "type": "png"
+            },
+            {
+                "file": "images/time_none.png",
+                "name": "IMAGE_TIME_NONE",
+                "type": "png"
+            },
+            {
+                "file": "images/name_salvador.png",
+                "name": "IMAGE_SALVADOR",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_8.png",
+                "name": "IMAGE_UTC_MINUS_8",
+                "type": "png"
+            },
+            {
+                "file": "images/name_newdelhi.png",
+                "name": "IMAGE_NEWDELHI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_tz1.png",
+                "name": "IMAGE_TZ1",
+                "type": "png"
+            },
+            {
+                "file": "images/time_4.png",
+                "name": "IMAGE_TIME_4",
+                "type": "png"
+            },
+            {
+                "file": "images/name_phoenix.png",
+                "name": "IMAGE_PHOENIX",
+                "type": "png"
+            },
+            {
+                "file": "images/name_hongkong.png",
+                "name": "IMAGE_HONGKONG",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_11.png",
+                "name": "IMAGE_UTC_MINUS_11",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_1.png",
+                "name": "IMAGE_UTC_MINUS_1",
+                "type": "png"
+            },
+            {
+                "file": "images/name_tokyo.png",
+                "name": "IMAGE_TOKYO",
+                "type": "png"
+            },
+            {
+                "file": "images/name_EST.png",
+                "name": "IMAGE_EST",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_7.png",
+                "name": "IMAGE_UTC_PLUS_7",
+                "type": "png"
+            },
+            {
+                "file": "images/time_blank.png",
+                "name": "IMAGE_TIME_BLANK",
+                "type": "png"
+            },
+            {
+                "file": "images/time_0.png",
+                "name": "IMAGE_TIME_0",
+                "type": "png"
+            },
+            {
+                "file": "images/name_edinburgh.png",
+                "name": "IMAGE_EDINBURGH",
+                "type": "png"
+            },
+            {
+                "file": "images/name_seoul.png",
+                "name": "IMAGE_SEOUL",
+                "type": "png"
+            },
+            {
+                "file": "images/name_sydney.png",
+                "name": "IMAGE_SYDNEY",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_11.png",
+                "name": "IMAGE_UTC_PLUS_11",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_2.png",
+                "name": "IMAGE_UTC_PLUS_2",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_minus_6.png",
+                "name": "IMAGE_UTC_MINUS_6",
+                "type": "png"
+            },
+            {
+                "file": "images/time_plus.png",
+                "name": "IMAGE_TIME_PLUS",
+                "type": "png"
+            },
+            {
+                "file": "images/name_greenland.png",
+                "name": "IMAGE_GREENLAND",
+                "type": "png"
+            },
+            {
+                "file": "images/name_taipei.png",
+                "name": "IMAGE_TAIPEI",
+                "type": "png"
+            },
+            {
+                "file": "images/name_losangeles.png",
+                "name": "IMAGE_LOSANGELES",
+                "type": "png"
+            },
+            {
+                "file": "images/name_guam.png",
+                "name": "IMAGE_GUAM",
+                "type": "png"
+            },
+            {
+                "file": "images/name_beirut.png",
+                "name": "IMAGE_BEIRUT",
+                "type": "png"
+            },
+            {
+                "file": "images/time_6.png",
+                "name": "IMAGE_TIME_6",
+                "type": "png"
+            },
+            {
+                "file": "images/white.png",
+                "name": "IMAGE_WHITE_BACK",
+                "type": "png"
+            },
+            {
+                "file": "images/name_UTC_plus_5_30.png",
+                "name": "IMAGE_UTC_PLUS_5_30",
+                "type": "png"
+            },
+            {
+                "file": "images/name_stockholm.png",
+                "name": "IMAGE_STOCKHOLM",
+                "type": "png"
+            },
+            {
+                "file": "images/name_CDT.png",
+                "name": "IMAGE_CDT",
+                "type": "png"
+            },
+            {
+                "file": "images/name_reykjavik.png",
+                "name": "IMAGE_REYKJAVIK",
+                "type": "png"
+            },
+            {
+                "file": "images/time_1.png",
+                "name": "IMAGE_TIME_1",
+                "type": "png"
+            },
+            {
+                "file": "images/name_sanjuan.png",
+                "name": "IMAGE_SANJUAN",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "TZplus2",
+    "uuid": "7db50aa2-2b9d-4f61-8644-2ed7a55fafab",
+    "versionCode": 1,
+    "versionLabel": "2.3",
+    "watchapp": {
+        "watchface": false
+    }
 }

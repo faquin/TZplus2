@@ -61,7 +61,7 @@ int tz2_index = TZ2_INDEX_DEFAULT;
 int tz3_index = TZ3_INDEX_DEFAULT;
 
 int app_state = APP_IDLE_STATE;
-int splash_timer = 5;
+int splash_timer = 0;
 
 GBitmap *tz1_name_image;
 GBitmap *tz2_name_image;
